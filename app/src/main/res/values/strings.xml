@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Maveri_V2</string>
+    <string name="app_name" translatable="false">Maveri_V2</string>
+
+    <!--Launch Activity-->
+    <string name="Launch_sign_in">Sign in</string>
+    <string name="Launch_sign_up">Registration</string>
+
+    <!--Sign In-->
+    <string name="Signin_title">Sign In</string>
+    <string name="Signin_input_phone">Your number phone</string>
+
+    <!--Sign In-->
+    <string name="Signup_title">Registration</string>
+    <string name="Signup_input_phone">Your number phone</string>
+    <string name="Signup_input_name">Your name</string>
+    <string name="Signup_text_age">Your age</string>
+    <string name="Signup_text_sex">Your sex</string>
+    <string name="Signup_switch_male">Male</string>
+    <string name="Signup_switch_female">Female</string>
+    <string name="Signup_continue">Continue</string>
 </resources>

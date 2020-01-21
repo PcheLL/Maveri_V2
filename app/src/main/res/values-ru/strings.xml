@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Maveri_V2</string>
+    <!--Launch Activity-->
+    <string name="Launch_sign_in">Войти</string>
+    <string name="Launch_sign_up">Зарегистрироваться</string>
+
+    <!--Sign In-->
+    <string name="Signin_title">Авторизоваться</string>
+    <string name="Signin_input_phone">Ваш номер телефона</string>
+
+    <!--Sign In-->
+    <string name="Signup_title">Registration</string>
+    <string name="Signup_input_phone">Ваш номер телефона</string>
+    <string name="Signup_input_name">Ваше имя</string>
+    <string name="Signup_text_age">Ваш возраст</string>
+    <string name="Signup_text_sex">Ваш пол</string>
+    <string name="Signup_switch_male">Мужской</string>
+    <string name="Signup_switch_female">Женский</string>
+    <string name="Signup_continue">Продолжить</string>
 </resources>
