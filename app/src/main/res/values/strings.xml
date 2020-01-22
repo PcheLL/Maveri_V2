@@ -18,4 +18,31 @@
     <string name="Signup_switch_male">Male</string>
     <string name="Signup_switch_female">Female</string>
     <string name="Signup_continue">Continue</string>
+
+    <!--Navigation Main Menu-->
+    <string name="Nav_mainmenu_button_chat">Chat</string>
+    <string name="Nav_mainmenu_button_friends">Friends</string>
+    <string name="Nav_mainmenu_button_groups">Groups</string>
+    <string name="Nav_mainmenu_button_sitting">Sitting</string>
+
+    <!--Navigation Friends-->
+    <string name="Nav_friends_button_all">All\nfriends</string>
+    <string name="Nav_friends_button_online">Online\nfriends</string>
+    <string name="Nav_friends_button_meeting">My\nmeeting</string>
+
+    <!--Navigation Groups-->
+    <string name="Nav_groups_button_all">All\ngroups</string>
+    <string name="Nav_groups_button_my">My\ngroups</string>
+
+    <!--Navigation Chat-->
+    <string name="Nav_chat_button_messages">Messages</string>
+    <string name="Nav_chat_button_meeting">Our\nmeetings</string>
+
+    <!--My profile-->
+    <string name="Profile_friends">Friends</string>
+    <string name="Profile_meeting">My meeting</string>
+    <string name="Profile_my_city_meeting">Meeting in my city</string>
+    <string name="Profile_all_meeting">Show all</string>
+
+
 </resources>

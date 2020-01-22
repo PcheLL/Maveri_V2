@@ -16,4 +16,30 @@
     <string name="Signup_switch_male">Мужской</string>
     <string name="Signup_switch_female">Женский</string>
     <string name="Signup_continue">Продолжить</string>
+    
+    <!--Navigation Main Menu-->
+    <string name="Nav_mainmenu_button_chat">Чат</string>
+    <string name="Nav_mainmenu_button_friends">Друзья</string>
+    <string name="Nav_mainmenu_button_groups">Группы</string>
+    <string name="Nav_mainmenu_button_sitting">Настройки</string>
+
+    <!--Navigation Friends-->
+    <string name="Nav_friends_button_all">Все\nдрузья</string>
+    <string name="Nav_friends_button_online">Друзья\nонлайн</string>
+    <string name="Nav_friends_button_meeting">Мои\nвстречи</string>
+
+    <!--Navigation Groups-->
+    <string name="Nav_groups_button_all">Все\nгруппы</string>
+    <string name="Nav_groups_button_my">Мои\nгруппы</string>
+
+    <!--Navigation Chat-->
+    <string name="Nav_chat_button_messages">Сообщения</string>
+    <string name="Nav_chat_button_meeting">Наши\nвстречи</string>
+
+    <!--My profile-->
+    <string name="Profile_friends">Друзья</string>
+    <string name="Profile_meeting">Мои встречи</string>
+    <string name="Profile_my_city_meeting">Встречи в моем городе</string>
+    <string name="Profile_all_meeting">Показать все</string>
+
 </resources>

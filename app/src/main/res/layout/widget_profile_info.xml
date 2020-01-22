@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/tv_profile_number_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_profile_text_friend"
+        app:layout_constraintEnd_toEndOf="@+id/tv_profile_text_friend"
+        android:text="47"
+        android:textSize="@dimen/text_size_35sp"/>
+    <TextView
+        android:id="@+id/tv_profile_text_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profile_number_friends"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/Profile_friends"
+        android:textSize="@dimen/text_size_20sp"/>
+
+    <TextView
+        android:id="@+id/tv_profile_number_meeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_profile_text_meeting"
+        app:layout_constraintEnd_toEndOf="@+id/tv_profile_text_meeting"
+        android:text="12"
+        android:textSize="@dimen/text_size_35sp"/>
+    <TextView
+        android:id="@+id/tv_profile_text_meeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_30dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profile_number_meeting"
+        app:layout_constraintStart_toEndOf="@+id/tv_profile_text_friend"
+        android:text="@string/Profile_meeting"
+        android:textSize="@dimen/text_size_20sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
