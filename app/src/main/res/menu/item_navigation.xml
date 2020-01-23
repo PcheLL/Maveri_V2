@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/nav_btn_chat"
+        android:id="@+id/nav_btn_message"
         android:icon="@drawable/ic_nav_btn_message"
-        android:title="@string/Nav_mainmenu_button_chat" />
+        android:title="@string/Nav_mainmenu_button_messages" />
     <item
         android:id="@+id/nav_btn_friends"
         android:icon="@drawable/ic_nav_btn_friends"
         android:title="@string/Nav_mainmenu_button_friends" />
     <item
-        android:id="@+id/nav_btn_groups"
-        android:icon="@drawable/ic_nav_btn_groups"
-        android:title="@string/Nav_mainmenu_button_groups" />
+        android:id="@+id/nav_btn_meetings"
+        android:icon="@drawable/ic_nav_btn_meetings"
+        android:title="@string/Nav_mainmenu_button_meetings" />
     <item
         android:id="@+id/nav_btn_sitting"
         android:icon="@drawable/ic_nav_btn_sitting"

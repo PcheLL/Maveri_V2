@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/vector_groups_friends_background">
+    android:background="@drawable/vector_meetings_friends_background">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_my_meeting"

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        style="@style/Widget.MaterialComponents.CardView"
+        app:cardCornerRadius="@dimen/size_20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_rv_profile_meeting_photo"
+                android:layout_width="34dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/tv_rv_profile_meeting_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_10dp"
+                android:text="Friends meeting"
+                android:textSize="@dimen/text_size_10sp"
+                android:textColor="@color/colorBlack"
+                app:layout_constraintStart_toEndOf="@+id/iv_rv_profile_meeting_photo"
+                app:layout_constraintTop_toTopOf="@+id/iv_rv_profile_meeting_photo" />
+
+            <TextView
+                android:id="@+id/tv_rv_profile_meeting_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Michel Kravech - 10h 32m"
+                android:textSize="@dimen/text_size_5sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_rv_profile_meeting_name"
+                app:layout_constraintStart_toStartOf="@+id/tv_rv_profile_meeting_name"
+                app:layout_constraintTop_toBottomOf="@+id/tv_rv_profile_meeting_name" />
+
+            <TextView
+                android:id="@+id/tv_rv_profile_meeting_numbers_users"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_rv_profile_meeting_name"
+                app:layout_constraintEnd_toEndOf="@+id/tv_rv_profile_meeting_text_person"
+                app:layout_constraintStart_toStartOf="@+id/tv_rv_profile_meeting_text_person" />
+
+            <TextView
+                android:id="@+id/tv_rv_profile_meeting_text_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/Profile_meeting_text_persons"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size_8sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tv_rv_profile_meeting_name"
+                app:layout_constraintTop_toBottomOf="@+id/tv_rv_profile_meeting_numbers_users" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

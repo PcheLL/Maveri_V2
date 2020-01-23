@@ -7,4 +7,6 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorDividingLine">#6AB8B8B8</color>
     <color name="colorBlue">#19B6FF</color>
+    <color name="colorSelected">#00FFA6</color>
+    <color name="colorLightGray">#ECECEC</color>
 </resources>
